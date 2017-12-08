@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C4E5ACC1FDA63F70037B2FF /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E5ACB1FDA63F70037B2FF /* Player.swift */; };
+		5C4E5ACE1FDA68D70037B2FF /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E5ACD1FDA68D70037B2FF /* PlayerCell.swift */; };
+		5C4E5AD01FDA6FEF0037B2FF /* PlayerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E5ACF1FDA6FEF0037B2FF /* PlayerDetailViewController.swift */; };
 		8434D4321FDA2F6E0060FEF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434D4311FDA2F6E0060FEF9 /* AppDelegate.swift */; };
 		8434D4341FDA2F6E0060FEF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434D4331FDA2F6E0060FEF9 /* ViewController.swift */; };
 		8434D4371FDA2F6E0060FEF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8434D4351FDA2F6E0060FEF9 /* Main.storyboard */; };
@@ -14,10 +17,12 @@
 		8434D43C1FDA2F6E0060FEF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8434D43B1FDA2F6E0060FEF9 /* Assets.xcassets */; };
 		8434D43F1FDA2F6E0060FEF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8434D43D1FDA2F6E0060FEF9 /* LaunchScreen.storyboard */; };
 		8434D4471FDA346B0060FEF9 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434D4461FDA346B0060FEF9 /* PlayersViewController.swift */; };
-		8434D4491FDA3E2F0060FEF9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434D4481FDA3E2F0060FEF9 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C4E5ACB1FDA63F70037B2FF /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		5C4E5ACD1FDA68D70037B2FF /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		5C4E5ACF1FDA6FEF0037B2FF /* PlayerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailViewController.swift; sourceTree = "<group>"; };
 		8434D42E1FDA2F6D0060FEF9 /* Rating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rating.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8434D4311FDA2F6E0060FEF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8434D4331FDA2F6E0060FEF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,7 +32,6 @@
 		8434D43E1FDA2F6E0060FEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8434D4401FDA2F6E0060FEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8434D4461FDA346B0060FEF9 /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
-		8434D4481FDA3E2F0060FEF9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				8434D4311FDA2F6E0060FEF9 /* AppDelegate.swift */,
+				5C4E5ACB1FDA63F70037B2FF /* Player.swift */,
 				8434D4461FDA346B0060FEF9 /* PlayersViewController.swift */,
 				8434D4331FDA2F6E0060FEF9 /* ViewController.swift */,
 				8434D4351FDA2F6E0060FEF9 /* Main.storyboard */,
@@ -68,7 +73,8 @@
 				8434D43D1FDA2F6E0060FEF9 /* LaunchScreen.storyboard */,
 				8434D4401FDA2F6E0060FEF9 /* Info.plist */,
 				8434D4381FDA2F6E0060FEF9 /* Rating.xcdatamodeld */,
-				8434D4481FDA3E2F0060FEF9 /* TableViewController.swift */,
+				5C4E5ACD1FDA68D70037B2FF /* PlayerCell.swift */,
+				5C4E5ACF1FDA6FEF0037B2FF /* PlayerDetailViewController.swift */,
 			);
 			path = Rating;
 			sourceTree = "<group>";
@@ -145,10 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C4E5ACE1FDA68D70037B2FF /* PlayerCell.swift in Sources */,
 				8434D4341FDA2F6E0060FEF9 /* ViewController.swift in Sources */,
+				5C4E5AD01FDA6FEF0037B2FF /* PlayerDetailViewController.swift in Sources */,
 				8434D4471FDA346B0060FEF9 /* PlayersViewController.swift in Sources */,
 				8434D4321FDA2F6E0060FEF9 /* AppDelegate.swift in Sources */,
-				8434D4491FDA3E2F0060FEF9 /* TableViewController.swift in Sources */,
+				5C4E5ACC1FDA63F70037B2FF /* Player.swift in Sources */,
 				8434D43A1FDA2F6E0060FEF9 /* Rating.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
