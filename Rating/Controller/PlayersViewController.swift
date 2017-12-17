@@ -42,6 +42,13 @@ extension PlayersViewController{
     }
     
     @IBAction func savePlayerDetail(_ sender: UIStoryboardSegue){
+        guard let playerDetailsViewController = sender.source as? PlayerDetailViewController,
+            let player = playerDetailsViewController.player
+        else { return }
+        
+        players.append(player)
+        let indexPath = IndexPath(row: players.count - 1, section: 0)
+        tableView.insertRows(at: [indexPath], with: .automatic)
         
     }
     

@@ -1,19 +1,12 @@
 //
-//  Player.swift
+//  SampleData.swift
 //  Rating
 //
-//  Created by nguyencuong on 12/8/17.
+//  Created by nguyencuong on 12/17/17.
 //  Copyright © 2017 Admin. All rights reserved.
 //
 
 import Foundation
-
-
-struct Player {
-    var name: String?
-    var game: String?
-    var rating: Int
-}
 
 final class SampleData{
     static func generatePlayersData() -> [Player]{
